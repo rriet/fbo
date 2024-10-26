@@ -36950,7 +36950,7 @@ if(p.length!==0)k+="Transportation details: "+p+"\nPlease stage it next to the a
 if(p.length!==0)k+="Departure time: "+p+" UTC.\n\n"
 p=q.r.a.a
 if(p.length!==0){j=j==="1"?"passenger\n\n":"passengers\n\n"
-k=k+("Expecting "+p)+j}j=q.x
+k=k+("Expecting "+p+" ")+j}j=q.x
 if(j||q.y.a.a.length!==0||q.z.a.a.length!==0){k+="Required Services:\n"
 if(j)k+="- Fuel (Negative Prist, Panel set)\n"
 j=q.y.a.a
