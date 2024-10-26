@@ -1,5 +1,5 @@
 const OFFLINE_VERSION = 1;
-const CACHE_NAME = "FboEmail";
+const CACHE_NAME = "FboNotifier";
 var urlsToCache = [
     "/fbo/",
     "/fbo/flutter_bootstrap.js",
