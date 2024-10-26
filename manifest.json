@@ -1,6 +1,6 @@
 {
-    "name": "fbo_email",
-    "short_name": "fbo_email",
+    "name": "FBO Emailer",
+    "short_name": "FBO Emailer",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
