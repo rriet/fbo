@@ -36935,36 +36935,36 @@ p.fg("String","otherRequests",q.z.a.a)
 return A.N(null,r)}})
 return A.O($async$mo,r)},
 uO(a){return this.VA(a)},
-VA(a){var s=0,r=A.P(t.H),q=this,p,o,n,m,l,k
+VA(a){var s=0,r=A.P(t.H),q=this,p,o,n,m,l,k,j
 var $async$uO=A.Q(function(b,c){if(b===1)return A.M(c,r)
-while(true)switch(s){case 0:m=q.a.a.a
-l="Hi,\n\nAircraft N"+m+"FX estimating arrival at "+q.b.a.a+" at "+q.c.a.a+" UTC.\n\n"
-k=q.d.a.a
-if(k.length!==0){p=k==="1"?"passenger":"passengers"
-l=l+("Arriving Passengers: "+k+" ")+p
-k=q.e.a.a
-if(k.length!==0){p=k==="1"?"bag":"bags"
-l=l+(" with "+k+" ")+p}l+=".\n\n"
-k=q.f.a.a
-if(k.length!==0)l+="Transportation details: "+k+"\nPlease stage it next to the aircraft.\n\n"}k=q.w.a.a
-if(k.length!==0)l+="Departure time: "+k+" UTC.\n\n"
-k=q.r.a.a
-if(k.length!==0)l+="Departing with "+k+" passengers.\n\n"
-k=q.x
-if(k||q.y.a.a.length!==0||q.z.a.a.length!==0){l+="Required Services:\n"
-if(k)l+="- Fuel (Negative Prist, Panel set)\n"
-k=q.y.a.a
-if(k.length!==0)l+="- Catering Number: "+k+"\n"
-k=q.z.a.a
-if(k.length!==0){o=k.split("\n")
-for(k=o.length,n=0;n<k;++n)l+=" - "+J.aAu(o[n])+"\n"}l+="\n"}switch(a){case 1:l+="Tailwinds Numbers:\n"+q.Q.a.a+"\n"+q.at.a.a+"\n\n"
+while(true)switch(s){case 0:l=q.a.a.a
+k="Hi,\n\nAircraft N"+l+"FX estimating arrival at "+q.b.a.a+" at "+q.c.a.a+" UTC.\n\n"
+j=q.d.a.a
+if(j.length!==0){p=j==="1"?"passenger":"passengers"
+k=k+("Arriving Passengers: "+j+" ")+p
+p=q.e.a.a
+if(p.length!==0){o=p==="1"?"bag":"bags"
+k=k+(" with "+p+" ")+o}k+=".\n\n"
+p=q.f.a.a
+if(p.length!==0)k+="Transportation details: "+p+"\nPlease stage it next to the aircraft.\n\n"}p=q.w.a.a
+if(p.length!==0)k+="Departure time: "+p+" UTC.\n\n"
+p=q.r.a.a
+if(p.length!==0){j=j==="1"?"passenger\n\n":"passengers\n\n"
+k=k+("Expecting "+p)+j}j=q.x
+if(j||q.y.a.a.length!==0||q.z.a.a.length!==0){k+="Required Services:\n"
+if(j)k+="- Fuel (Negative Prist, Panel set)\n"
+j=q.y.a.a
+if(j.length!==0)k+="- Catering Number: "+j+"\n"
+j=q.z.a.a
+if(j.length!==0){n=j.split("\n")
+for(j=n.length,m=0;m<j;++m)k+=" - "+J.aAu(n[m])+"\n"}k+="\n"}switch(a){case 1:k+="Tailwinds Numbers:\n"+q.Q.a.a+"\n"+q.at.a.a+"\n\n"
 break
-case 2:l+="Gateway Numbers:\n"+q.as.a.a+"\n"+q.ax.a.a+"\n\n"
+case 2:k+="Gateway Numbers:\n"+q.as.a.a+"\n"+q.ax.a.a+"\n\n"
 break
-default:break}l+="Please confirm receipt of this message. Thank you!"
-A.wl(l,"example@example.com","Arrival and Service Request")
+default:break}k+="Please confirm receipt of this message. Thank you!"
+A.wl(k,"example@example.com","Arrival and Service Request")
 s=2
-return A.X(A.wl(l,"","Flexjet N"+m+"FX Arrival Information"),$async$uO)
+return A.X(A.wl(k,"","Flexjet N"+l+"FX Arrival Information"),$async$uO)
 case 2:return A.N(null,r)}})
 return A.O($async$uO,r)},
 j(a,b){if(b==null)return!1
